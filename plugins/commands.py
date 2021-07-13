@@ -76,7 +76,7 @@ async def start(client, message):
     ],
     [
         InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-        InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+        InlineKeyboardButton('🧩 Source', url='https://github.com/shabeeb77/4kmusic_Bot'),
     ],
     [
         InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -94,12 +94,11 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
+            InlineKeyboardButton('💢 Modded By', url='https://t.me/vignesh_sta'),
             InlineKeyboardButton('🤖 Other Bots', url='https://t.me/subin_works/122'),
         ],
         [
-            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps')
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
